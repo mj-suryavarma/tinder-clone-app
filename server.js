@@ -17,7 +17,7 @@ app.use(cors());
 
 /// api endpoint
 app.get('/',(req,res) => {
-    res.status(200).send("Hello form backend server ")
+    res.status(200).send("Hello World! from MSJ's tinder-app backend server")
 })
 
 app.post('/tinder/cards',(req,res) => {
