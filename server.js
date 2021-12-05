@@ -8,7 +8,7 @@ import cors from 'cors'
 
 // app config 
 const app = express();
-const port = 8001 || process.env.PORT
+const port =  process.env.PORT || 8001
 
 // middleware config
 app.use(express.json());
